@@ -1,5 +1,4 @@
-#
-# ~/.bashrc
+#/home/user/.bashrc
 #
 # Some applications read the EDITOR variable to determine
 #your favourite text editor. So uncomment the line

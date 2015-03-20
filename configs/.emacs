@@ -1,3 +1,4 @@
+;;/home/user/.emacs
 (require 'linum)                       ;;  requires linum on start
 (global-linum-mode 1)                  ;;  auto start linum in all modes
 (custom-set-faces

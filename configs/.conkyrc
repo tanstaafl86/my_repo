@@ -1,3 +1,5 @@
+#/home/user/.conkyrc
+#
 background yes
 use_xft yes
 xftfont Sans:size=8
