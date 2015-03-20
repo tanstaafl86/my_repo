@@ -1,0 +1,28 @@
+# /home/user/.tmuxinator/irc.yml
+
+name: irc
+root: ~/
+
+# Optional tmux socket
+# socket_name: foo
+
+# Runs before everything. Use it to start daemons etc.
+# pre: sudo /etc/rc.d/mysqld start
+
+# Runs in each window and pane before window/pane specific commands. Useful for setting up interpreter versions.
+# pre_window: rbenv shell 2.0.0-p247
+
+# Pass command line options to tmux. Useful for specifying a different tmux.conf.
+# tmux_options: -f ~/.tmux.mac.conf
+
+# Change the command to call tmux.  This can be used by derivatives/wrappers like byobu.
+# tmux_command: byobu
+
+windows:
+  - editor:
+       layout: 24a2,185x44,0,0{45x44,0,0,0,45x44,46,0,1,73x44,92,0,2,19x44,166,0,3}  
+       panes:
+        - pianobar
+        - archey3 -l
+        - irssi
+        - cat /home/tanstaafl/.irssi/nicklistfifo
